@@ -10,4 +10,4 @@ webserver_config.py
 airflow.cfg
 airflow.db
 /include/gcp/service_account.json
-/soda/checks/sources/configuration.yaml
+/include/soda/checks/sources/configuration.yaml
