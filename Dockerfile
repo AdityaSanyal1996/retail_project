@@ -8,3 +8,4 @@ RUN python -m venv soda_venv && source soda_venv/bin/activate && \
     pip install setuptools &&\
     pip install --no-cache-dir soda-core-bigquery==3.4.0 &&\
     pip install --no-cache-dir soda-core-scientific==3.4.0 && deactivate
+

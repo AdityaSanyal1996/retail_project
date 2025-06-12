@@ -1,10 +1,11 @@
 checks for raw_invoices:
   - schema:
       fail:
-        when required column missing: [InvoiceNo, StockCode, Quantity, InvoiceDate, UnitPrice, CustomerID, Country]
+        when required column missing: [InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country]
         when wrong column type: 
           InvoiceNo: string
           StockCode: string
+          Description: string
           Quantity: int
           InvoiceDate: string
           UnitPrice: float64

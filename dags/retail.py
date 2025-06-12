@@ -51,4 +51,4 @@ def retail():
         return check(scan_name, checks_subpath)
 
     check_load()
-retail()
+retail() 
